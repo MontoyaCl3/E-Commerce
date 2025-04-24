@@ -31,8 +31,9 @@ export default function Cart() {
 
     return (
         <>
-            <label htmlFor={cartId} className="cursor-pointer">
-                <BsCart3 />
+            <label htmlFor={cartId} className="cursor-pointer flex items-center gap-1">
+                <BsCart3 /> 
+                <p>Cart</p>
             </label>
             <input id={cartId} type="checkbox" hidden className="peer" />
             <aside className="fixed top-0 right-0  overflow-scroll w-64 h-full bg-white shadow-lg transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out z-50"> 

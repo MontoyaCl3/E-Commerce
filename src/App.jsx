@@ -5,6 +5,7 @@ import React from 'react';
 import ProductsPage from './components/ProductsPage';
 import { CartProvider } from './context/cart';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/login" element={<h1>Login</h1>} />
       <Route path="/*" element={<h1>404 Not found</h1>} />
     </Routes>
+    <Footer/>
     </CartProvider>
     </div>
   );

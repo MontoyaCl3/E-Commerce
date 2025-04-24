@@ -5,7 +5,7 @@ import { AiOutlineUser,AiOutlineShopping,AiOutlineSearch} from "react-icons/ai";
 export default function Header(){
     return(
         <>
-            <header className="relative flex flex-row items-center justify-between max-w-5xl mx-auto my-[20px]">
+            <header className="relative flex flex-row items-center justify-between px-2 max-w-5xl mx-auto my-[20px]">
                 <div className="z-10">
                     <AiOutlineSearch />
                 </div>
@@ -21,7 +21,7 @@ export default function Header(){
                     <AiOutlineUser /> Account
                     </Link>
                     <div className="flex items-center">
-                    <Cart /> Cart
+                    <Cart />
                     </div>
                 </div>
             </header>
