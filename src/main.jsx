@@ -12,6 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // Renderiza la aplicación dentro del enrutador
 root.render(
   <FiltersProvider>
+    <h1>Hola</h1>
     <BrowserRouter>
       <App />
     </BrowserRouter>
