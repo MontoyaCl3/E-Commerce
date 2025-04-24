@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://montoyacl3.github.io/E-Commerce/"
+  base:"https://montoyacl3.github.io/E-Commerce/"
 })
 
