@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Básica Blanca",
+    "price": 25000,
+    "image": "https://images.unsplash.com/photo-1600180758890-6b94519c8a3e"
+  },
+  {
+    "id": 2,
+    "name": "Pantalón Jeans Azul",
+    "price": 75000,
+    "image": "https://images.unsplash.com/photo-1583001108899-5c4b9f4f0f3a"
+  },
+  {
+    "id": 3,
+    "name": "Chaqueta de Cuero Negra",
+    "price": 120000,
+    "image": "https://images.unsplash.com/photo-1618354691373-4c8b8a3e9f3d"
+  },
+  {
+    "id": 4,
+    "name": "Vestido Floral",
+    "price": 95000,
+    "image": "https://images.unsplash.com/photo-1621607511449-3f9b9f4f0f3b"
+  },
+  {
+    "id": 5,
+    "name": "Sudadera con Capucha Gris",
+    "price": 60000,
+    "image": "https://images.unsplash.com/photo-1600180758890-6b94519c8a3e"
+  }
+]
